@@ -1,0 +1,26 @@
+body{
+    margin:0;
+    font-family: poppins;
+}
+.container{
+    min-height: 100vh;
+    grid-template-rows: 50px auto 50px;
+    display: grid;
+
+
+}
+.nav, .footer{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: rgba(87,87,87);
+    height: 50px;
+    grid-template-rows: none;
+}
+.content{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
